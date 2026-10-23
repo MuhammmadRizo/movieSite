@@ -57,7 +57,6 @@ async function getMovies(movieType, pageNumber, searchText, minYear, maxYear) {
   append.innerHTML = "";
   for (const movie of movieData) {
     append.innerHTML += `
-    <h1>Salom</h1>
               <div class="movie">
                 <a href="https://adilovdev.uz" target="_blank">
                     <img src="https://image.tmdb.org/t/p/w500${movie.backdrop_path}" alt="${movie.title}">
